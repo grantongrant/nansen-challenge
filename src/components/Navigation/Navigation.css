@@ -1,0 +1,54 @@
+
+.nav-bar {
+    background-color: #5856D6;
+    width: 100%;
+    height: 75px;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    height: 75px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo-svg {
+    height: 51px;
+    width: 50px;
+    background-image: url(./Rocket\ Icon.svg);
+    margin-right: 12px;
+}
+
+#logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #F9F9F9;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.nav-link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F7F7F7;
+    line-height: 29px;
+    padding-left: 20px;
+    cursor: pointer;
+}
