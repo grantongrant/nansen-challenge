@@ -1,0 +1,27 @@
+.completion-bar {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    float: right;
+}
+
+.bar-component {
+    width: 327px;
+    height: 30px;
+    background-color: #E2E2E2;
+    border-radius: 15px;
+}
+
+.percentage-complete {
+    font-family: 'Lato', san-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-right: 20px;
+}
+
+.purple {
+    background-color: #5856D6;
+}
