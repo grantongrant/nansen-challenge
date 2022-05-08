@@ -55,7 +55,8 @@
         margin: 10px 0px;
     }
     .completion-bar-container {
-        width: 90%;
+        width: 100%;
+        height: fit-content;
         margin: 0px auto;
         justify-content: center;
         align-items: center;
