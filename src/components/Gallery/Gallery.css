@@ -55,10 +55,16 @@
         margin: 10px 0px;
     }
     .completion-bar-container {
-        width: 100%;
+        width: 90%;
         height: fit-content;
         margin: 0px auto;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .completion-bar-container {
+        width: 100%;
     }
 }
