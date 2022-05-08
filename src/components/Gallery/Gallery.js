@@ -31,8 +31,8 @@ const Gallery = ({tasks, markDone}) => {
                 <CompletionBar num={percentage}/>
             </div>
             <div className="gallery-container">
-                {tasks && tasks.map(task => (
-                    <div className="task-container three-four">
+                {tasks && tasks.map((task, index) => (
+                    <div className="task-container three-four" key={index}>
                         <TaskCard task={task} markDone={markDone}/>
                     </div>
                 ))}
