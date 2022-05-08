@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 860px) {
     .three-four {
-        width: 98%;
+        width: 100%;
         margin: 20px 0;
     }
     .gallery-container {
