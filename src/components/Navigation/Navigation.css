@@ -89,6 +89,8 @@
     }
     .media-nav-link-container {
         padding: 0px 24px;
+        display: flex;
+        flex-direction: column;
     }
     .nav-link {
         color: #53575A;
