@@ -43,6 +43,10 @@
     flex-direction: row;
 }
 
+.media-nav-link-container {
+    display: none;
+}
+
 .nav-link {
     font-family: 'Lato', sans-serif;
     font-weight: 700;

@@ -5,7 +5,7 @@ import MobileMenu from './MobileMenu';
 
 const Navigation = () => {
 
-    const [menuOpen, setMenuOpen] = useState(true);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <div className="nav-bar">
@@ -15,7 +15,7 @@ const Navigation = () => {
                 <div className="menu-open" onClick={e => setMenuOpen(false)}></div> : 
                 <div className="menu-closed" onClick={e => setMenuOpen(true)}></div>}
                 {menuOpen ? <MobileMenu/> :
-                <ul className="nav-link-container media-nav-link-container">
+                <ul className="nav-link-container">
                     <li className="nav-link">Schedule</li>
                     <li className="nav-link">About Us</li>
                     <li className="nav-link">Contact</li>
