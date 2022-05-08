@@ -35,3 +35,29 @@
     height: 100%;
     padding: 12px 24px;
 }
+
+@media screen and (max-width: 1294px) {
+    .three-four {
+        width: 48%;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .three-four {
+        width: 98%;
+        margin: 20px 0;
+    }
+    .gallery-container {
+        padding: 6px 0px;
+    }
+    .task-container {
+        margin: 10px 0px;
+    }
+    .completion-bar-container {
+        width: 90%;
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+    }
+}

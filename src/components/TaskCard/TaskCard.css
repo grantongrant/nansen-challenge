@@ -7,9 +7,11 @@
     align-items: center;
     background-color: white;
     margin: 0px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.125);
     padding: 48px 24px;
+    /* padding: 13% 6.77%; */
+    /* flex-shrink: 1; */
 }
 
 .task-name {
@@ -23,4 +25,10 @@
 
 .card-button {
     margin: 0px 10px;
+}
+
+@media screen and (max-width: 860px) {
+    .task-card {
+        padding: 20px 15px;
+    }
 }

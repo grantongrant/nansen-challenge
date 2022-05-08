@@ -1,6 +1,7 @@
 .hero-container {
     height: 480px;
     width: 100%;
+    margin: 0 auto;
     max-width: 1440px;
     background-image: url(./Astronaut_Darkened\ 1.png);
     background-size: cover;
@@ -25,4 +26,17 @@
     margin: 0;
     font-size: 56px;
     line-height: 67.2px;
+}
+
+@media screen and (max-width: 565px) {
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-heading {
+        font-size: 36px;
+        line-height: 43.2px;
+    }
 }
